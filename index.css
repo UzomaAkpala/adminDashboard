@@ -1,0 +1,230 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.dashboardContainer {
+    background-color: rgb(64, 91, 201);
+    color: rgb(19, 19, 19);
+    width: 280px;
+    height: 800px;
+}
+
+.dashboardMenu {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+div > h1 {
+margin-left: 12px;
+margin-top: 5px;
+font-family: cursive;
+color: white;
+}
+
+.dashboardMenu1{
+    margin-top: 30px;
+}
+
+ .dashboardMenu2{
+    margin-top: 60px;
+ }
+
+.menu {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+div > a {
+    margin-left: 12px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    }
+
+    .gridDisplay{
+        background-color: rgb(181, 188, 195);
+        width: 1200px;
+        height: 800px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(19, 1fr);
+        row-gap: 20px;
+        column-gap: 30px;
+        border: 0px;
+    }
+
+    .gridDisplay > div {
+        background-color: rgb(251, 248, 245);
+    }
+
+    .one {
+        grid-column: 1/4;
+        grid-row: 1/5;
+        height: 200px;
+        
+    }
+    .oneDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #search{
+        height: 30px;
+        width: 500px;
+        border-radius: 10px;
+        margin-left: -70px;
+    }
+    .searchLogo {
+    margin-left: 40px;
+    }
+    .alarmLogo {
+        margin-right: -80px;
+    }
+    .businessLogo {
+        margin-right: -130px;
+        background-color: rgba(5, 2, 93, 0.395);
+        width: 60px;
+        border-radius: 50%;
+    }
+    
+    .businessName {
+        margin-right: 30px;
+        background-color: rgb(19, 1, 88);
+        color:rgb(244, 244, 244);
+        width: 200px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+    .businessName:hover{
+        background-color: black;
+        color: lawngreen;
+        border-radius: 0px 40px;
+        cursor: pointer;
+    }
+    .oneDiv1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 110px;
+    }
+    .businessSection {
+        display: flex;
+        margin-left: -60px;
+    }
+    .businessName1 {
+        color: black;
+    }
+
+    .lists {
+        display: flex;
+        height: 40px;
+        width: 400px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lists > li {
+     list-style-type: none;
+     width: 120px;
+     background-color: rgb(4, 9, 155);
+     border-radius: 20px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: cursive;
+    }
+
+    .two{
+        grid-column: 1/2;
+        grid-row: 6/10;
+        margin-left: 20px;
+        border-radius: 10px;
+        border-left: 10px solid rgb(232, 198, 6);
+    }
+    .three{
+        grid-column: 1/2;
+        grid-row: 10/14;
+        margin-left: 20px;
+        border-radius: 10px;
+        border-left: 10px solid rgb(232, 198, 6);
+    }
+    .four {
+        grid-column: 2/3;
+        grid-row: 6/10;
+        border-radius: 10px;
+        border-left: 10px solid rgb(232, 198, 6);
+    }
+    .five {
+        grid-column: 2/3;
+        grid-row: 10/14 ;
+        border-radius: 10px;
+        border-left: 10px solid rgb(232, 198, 6);
+    }
+    .six {
+        grid-column: 2/3;
+        grid-row: 14/18;
+        border-radius: 10px;
+        border-left: 10px solid rgb(232, 198, 6);
+    }
+    .seven {
+        grid-column: 3/4;
+        grid-row: 6/12;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        border-radius: 0px 20px;
+    }
+    .eight {
+    grid-column: 1/2;
+    grid-row: 14/18;
+    margin-left: 20px;
+    border-radius: 10px;
+    border-left: 10px solid rgb(232, 198, 6);
+    }
+    .nine {
+        grid-column: 3/4;
+        grid-row: 12/18;
+        margin-top: 20px;
+        margin-right: 20px;
+        border-radius: 20px 0px;
+    }
+    .final {
+        grid-column: 2/4;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        width: 500px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+        border-radius: 10px;
+    }
+
+    .final:hover {
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+    }
+    
